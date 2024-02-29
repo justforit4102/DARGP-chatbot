@@ -1,0 +1,66 @@
+.root-page {
+    background-color: rgb(12, 11, 11);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../assets/pages-background.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  
+  .complaint-container {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border: 3px solid #001489;
+    border-radius: 8px;
+    width: 50%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .complaint-text {
+    height: 90%; 
+  }
+
+  /* Add other styles as needed */
+
+.root-page {
+  position: relative;
+}
+
+.complaint-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.complaint-overlay h4 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #001489; 
+  border-radius: 8px;
+}
+
+
+
+  
